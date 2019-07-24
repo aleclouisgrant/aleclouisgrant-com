@@ -1,0 +1,140 @@
+﻿.container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    
+    background: linear-gradient(125deg, 
+        rgba(255,252,242,1) 0%, 
+        rgba(255,252,242,1) 50%, 
+        rgba(190,2,26,1) 50%,
+        rgba(190,2,26,1) 55%, 
+        rgba(209,128,36,1) 55%, 
+        rgba(209,128,36,1) 60%, 
+        rgba(255,234,7,1) 60%, 
+        rgba(255,234,7,1) 65%, 
+        rgba(127,175,66,1) 65%, 
+        rgba(127,175,66,1) 70%, 
+        rgba(8,152,223,1) 70%, 
+        rgba(8,152,223,1) 75%, 
+        rgba(255,252,242,1) 75%, 
+        rgba(255,252,242,1) 100%);
+    
+
+}
+
+.name-title {
+    background-color: #5D594F;
+    border-radius: 5rem !important;
+    margin-left: -10%;
+}
+
+.button-group {
+    vertical-align: top;
+}
+
+h1 {
+    font-size: 55pt;
+    font-family: 'Bahnschrift';
+    vertical-align: middle;
+    color: white;
+    text-align: center;
+}
+
+.button-1 {
+    background-color: #5D594F;
+    border-radius: 5rem !important;
+    color: white;
+    text-align: center;
+    width: 125px;
+    display: inline-block;
+    margin: 10px;
+}
+.button-2 {
+    border-color: #5D594F;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5rem !important;
+    text-align: center;
+    color: #5D594F;
+    width: 125px;
+    display: inline-block;
+    margin: 10px;
+}
+
+a, a:link, a:visited {
+    font-family: Bahnschrift;
+    color: inherit;
+}
+
+.header-title {
+    text-align: left;
+    font-size: 30pt;
+    color: #5D594F;
+    font-family: 'Bahnschrift';
+    padding-bottom: 80px;
+}
+
+.list {
+    list-style: none;
+}
+
+body {
+    height: 100%;
+    background: #FFFCF2;
+    color: #5D594F;
+    font-family: 'Segoe UI';
+    text-align: center;
+}
+
+.col {
+}
+
+.card {
+    background-color: white;
+    border-radius: 2rem !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.card-img {
+    width: 70%;
+    margin: 0 auto;
+}
+.card-title {
+    font-size: 55pt;
+    font-weight: lighter;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    line-height: 80%;
+}
+.card-subtitle {
+    font-size: 20pt;
+    font-weight: lighter;
+}
+
+.rainbow-stripes {
+    height: 800px;
+    width: 100%;
+    background: linear-gradient(125deg, 
+        rgba(255,252,242,1) 0%, 
+        rgba(255,252,242,1) 50%, 
+        rgba(190,2,26,1) 50%, 
+        rgba(190,2,26,1) 55%, 
+        rgba(209,128,36,1) 55%, 
+        rgba(209,128,36,1) 60%, 
+        rgba(255,234,7,1) 60%, 
+        rgba(255,234,7,1) 65%, 
+        rgba(127,175,66,1) 65%, 
+        rgba(127,175,66,1) 70%, 
+        rgba(8,152,223,1) 70%, 
+        rgba(8,152,223,1) 75%, 
+        rgba(255,252,242,1) 75%, 
+        rgba(255,252,242,1) 100%);
+}
+
+.rainbow-stripes-fixed {
+    height: 300px;
+    width: 100%;
+    background: linear-gradient(125deg, rgba(255,252,242,1) 0%, rgba(255,252,242,1) 50%, rgba(190,2,26,1) 50%, rgba(190,2,26,1) 55%, rgba(209,128,36,1) 55%, rgba(209,128,36,1) 60%, rgba(255,234,7,1) 60%, rgba(255,234,7,1) 65%, rgba(127,175,66,1) 65%, rgba(127,175,66,1) 70%, rgba(8,152,223,1) 70%, rgba(8,152,223,1) 75%, rgba(255,252,242,1) 75%, rgba(255,252,242,1) 100%);
+}
