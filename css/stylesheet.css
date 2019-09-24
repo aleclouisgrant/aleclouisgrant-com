@@ -1,179 +1,159 @@
-﻿.container-fluid {
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 20px;
-    /*
-    background: linear-gradient(125deg, 
-        rgba(255,252,242,1) 0%, 
-        rgba(255,252,242,1) 50%, 
-        rgba(190,2,26,1) 50%,
-        rgba(190,2,26,1) 55%, 
-        rgba(209,128,36,1) 55%, 
-        rgba(209,128,36,1) 60%, 
-        rgba(255,234,7,1) 60%, 
-        rgba(255,234,7,1) 65%, 
-        rgba(127,175,66,1) 65%, 
-        rgba(127,175,66,1) 70%, 
-        rgba(8,152,223,1) 70%, 
-        rgba(8,152,223,1) 75%, 
-        rgba(255,252,242,1) 75%, 
-        rgba(255,252,242,1) 100%);
-    */
-    /*
-    background: linear-gradient(125deg, 
-        rgba(255,252,242,1) 0%, 
-        rgba(255,252,242,1) 50%, 
-        rgba(190,2,26,1) 50%,
-        rgba(190,2,26,1) 52.5%, 
-        rgba(209,128,36,1) 52.5%, 
-        rgba(209,128,36,1) 55%, 
-        rgba(255,234,7,1) 55%, 
-        rgba(255,234,7,1) 57.5%, 
-        rgba(127,175,66,1) 57.5%, 
-        rgba(127,175,66,1) 60%, 
-        rgba(8,152,223,1) 60%, 
-        rgba(8,152,223,1) 62.5%, 
-        rgba(255,252,242,1) 62.5%, 
-        rgba(255,252,242,1) 100%);
-    */
-    
-    background: linear-gradient(180deg, 
-        rgba(255,252,242,1) 0%, 
-        rgba(255,252,242,1) 25%, 
-        rgba(190,2,26,1) 25%,
-        rgba(190,2,26,1) 30%, 
-        rgba(209,128,36,1) 30%, 
-        rgba(209,128,36,1) 35%, 
-        rgba(255,234,7,1) 35%, 
-        rgba(255,234,7,1) 40%, 
-        rgba(127,175,66,1) 40%, 
-        rgba(127,175,66,1) 45%, 
-        rgba(8,152,223,1) 45%, 
-        rgba(8,152,223,1) 50%, 
-        rgba(255,252,242,1) 50%, 
-        rgba(255,252,242,1) 100%);
-    
-    /*
-    background: linear-gradient(180deg, 
-        rgba(255,252,242,1) 0%, 
-        rgba(255,252,242,1) 30%,
-        
-        rgba(190,2,26,1) 30%,
-        rgba(190,2,26,1) 31%,
-
-        rgba(255,252,242,1) 31%, 
-        rgba(255,252,242,1) 32%,
-
-        rgba(209,128,36,1) 32%,
-        rgba(209,128,36,1) 33%,
-    
-        rgba(255,252,242,1) 33%, 
-        rgba(255,252,242,1) 34%,
-
-        rgba(255,234,7,1) 34%,
-        rgba(255,234,7,1) 35%, 
-
-        rgba(255,252,242,1) 35%, 
-        rgba(255,252,242,1) 36%,
-
-        rgba(127,175,66,1) 36%, 
-        rgba(127,175,66,1) 37%,
-    
-        rgba(255,252,242,1) 37%, 
-        rgba(255,252,242,1) 38%,
-
-        rgba(8,152,223,1) 38%, 
-        rgba(8,152,223,1) 39%, 
-    
-        rgba(255,252,242,1) 39%, 
-        rgba(255,252,242,1) 100%);
-    */
-}
-
-.name-title {
-    background-color: #5D594F;
-    border-radius: 5rem !important;
-    margin-left: -10%;
-}
-
-a, a:link, a:visited {
-    font-family: Bahnschrift;
-    color: inherit;
-}
-
-h1 {
-    font-size: 50pt;
-    font-family: 'Bahnschrift';
-    vertical-align: middle;
-    color: white;
-    text-align: center;
-}
-
-.button-1 {
-    background-color: #5D594F;
-    border-radius: 5rem !important;
-    color: #FFFFFF;
-    text-align: center;
-    width: 125px;
-    display: inline-block;
-    margin: 5px;
+﻿.header-line {
     height: 40px;
-    border-style: none;
+    width: auto;
+    margin-top: 5px;
 }
-.button-2 {
-    border-color: #5D594F;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 5rem !important;
-    text-align: center;
-    color: #5D594F;
-    background-color: #FFFFFF;
-    width: 125px;
-    display: inline-block;
-    margin: 5px;
-    height: 40px;
-}
-
-.header-title {
-    text-align: left;
-    font-size: 30pt;
-    color: #5D594F;
-    font-family: 'Bahnschrift';
-    padding-bottom: 80px;
-}
-
 
 body {
     height: 100%;
-    background: #FFFCF2;
-    color: #5D594F;
-    font-family: 'Segoe UI';
+    background: #DFD7D3;
+    color: #1E1E18;
+    font-family: Bahnschrift;
+    text-align: left;
+}
+
+
+.contact-buttons {
+    font-family: 'Bahnschrift';
+    font-weight: bold;
+    height: 0px;
+    margin-top: -100px;
+    padding-top: 10px;
+    margin-left: 230px;
+}
+
+
+.container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+
+.header-title {
+    width: 100%;
+    text-align: left;
+    font-size: 30pt;
+    color: #1E1E18;
+    font-family: 'Bahnschrift';
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+
+.logo-container {
+    margin-top: -180px;
+    display: inline-block;
+}
+
+.logo-title {
+    font-family: 'Bauhaus 93';
+    color: #EB4A30;
     text-align: center;
+    display: inline-block;
+}
+
+.name-title {
+    font-family: Interstate;
+    color: #1E1E18;
+    letter-spacing: -10px;
+}
+
+
+a, a:link, a:visited {
+    font-family: Bahnschrift;
+    color: #1E1E18;
+    font-size: 35pt;
+}
+
+.row {
+    padding-bottom: 50px;
+}
+
+.col {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .card {
-    background-color: white;
-    border-radius: 2rem !important;
-    box-shadow: 0 2px 3px 2px rgba(93, 89, 79, 0.2);
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
+    background-color: #FBFBFB;
+    box-shadow: -5px 5px 6px 1px rgba(93, 89, 79, 0.5);
+    padding-left: 0px;
+    padding-right: 40px;
+    padding-top: 0px;
+    border-radius: 0;
+}
+.card-bar {
+    height: 100%;
+    width: 40px;
+    background-color: #E8E8E8;
+    padding-right: 0px;
+}
+.card-title {
+    font-size: 28pt;
+    font-family: Interstate;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.card-subtitle {
+    font-size: 14pt;
+    color: #EB4A30;
+    margin-bottom: 10px;
+    margin-top: -.2rem;
+}
+.card-body {
+    font-size: 12pt;
+    padding: 0;
+    margin-bottom: 10px;
 }
 .card-img {
     width: 70%;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
-.card-title {
-    font-size: 35pt;
-    font-weight: lighter;
-    margin-bottom: 15px;
-    margin-top: 20px;
-    line-height: 80%;
-}
-.card-subtitle {
+.card-buttons {
     font-size: 12pt;
-    font-weight: lighter;
+    padding: 0;
+    margin-bottom: 10px;
+    text-align: center;
 }
-.card-body {
+
+.button-1 {
+    background-color: #1E1E18;
+    height: 34px;
+    border-radius: 5rem !important;
+    border-style: none;
+    margin: 5px;
+    display: inline-block;
+    font-family: 'Bahnschrift';
     font-size: 12pt;
+    color: #FBFBFB;
+    text-align: center;
 }
+
+.button-2 {
+    background-color: #EB4A30;
+    height: 34px;
+    border-radius: 5rem !important;
+    border-style: none;
+    margin: 5px;
+    display: inline-block;
+    font-family: 'Bahnschrift';
+    font-size: 12pt;
+    color: #FBFBFB;
+    text-align: center;
+}
+
+.button-2-inactive {
+    background-color: #FBFBFB;
+    height: 34px;
+    border-radius: 5rem !important;
+    border-style: solid;
+    border-color: #EB4A30;
+    margin: 5px;
+    display: inline-block;
+    font-family: 'Bahnschrift';
+    font-size: 12pt;
+    color: #EB4A30;
+    text-align: center;
+}
+
