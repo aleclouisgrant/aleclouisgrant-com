@@ -10,22 +10,24 @@ body {
     color: #1E1E18;
     font-family: Bahnschrift;
     text-align: left;
+    overflow-x: hidden;
 }
 
+button {
+    width: 80px;
+}
 
 .contact-buttons {
     font-family: 'Bahnschrift';
     font-weight: bold;
     height: 0px;
-    margin-top: -100px;
-    padding-top: 10px;
-    margin-left: 230px;
+    top: 184px;
+    left: 362px;
+    position: absolute;
 }
 
 
 .container-fluid {
-    padding-left: 100px;
-    padding-right: 100px;
     padding-top: 20px;
 }
 
@@ -38,24 +40,51 @@ body {
     font-family: 'Bahnschrift';
     padding-top: 40px;
     padding-bottom: 0px;
+    height: 220px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.header-line {
+    position: relative;
+    width: 100%;
+    height: 30px;
+}
+
+.lines-left {
+    display: inline-block;
+    position: absolute;
+    width: 100px;
 }
 
 .logo-container {
-    margin-top: -180px;
     display: inline-block;
+    position: absolute;
+    top: -7px;
+    left: 94px;
 }
+
+.lines-right {
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    left: 0%;
+}
+
 
 .logo-title {
     font-family: 'Bauhaus 93';
     color: #EB4A30;
     text-align: center;
-    display: inline-block;
+    
 }
 
 .name-title {
     font-family: Interstate;
     color: #1E1E18;
     letter-spacing: -10px;
+    display: block;
+    position: absolute;
 }
 
 
@@ -63,6 +92,10 @@ a, a:link, a:visited {
     font-family: Bahnschrift;
     color: #1E1E18;
     font-size: 35pt;
+}
+
+a:hover {
+    color: #EB4A30;
 }
 
 .row {
@@ -89,7 +122,7 @@ a, a:link, a:visited {
     padding-right: 0px;
 }
 .card-title {
-    font-size: 28pt;
+    font-size: 22pt;
     font-family: Interstate;
     margin-top: 10px;
     margin-bottom: 0px;
@@ -100,15 +133,11 @@ a, a:link, a:visited {
     margin-bottom: 10px;
     margin-top: -.2rem;
 }
-.card-body {
-    font-size: 12pt;
-    padding: 0;
-    margin-bottom: 10px;
-}
 .card-img {
     width: 70%;
     margin: 0 auto;
     margin-bottom: 20px;
+    margin-left: 15%;
 }
 .card-buttons {
     font-size: 12pt;
