@@ -13,7 +13,7 @@ body {
     overflow-x: hidden;
 }
 
-button {
+button {    
     width: 80px;
 }
 
@@ -76,7 +76,6 @@ button {
     font-family: 'Bauhaus 93';
     color: #EB4A30;
     text-align: center;
-    
 }
 
 .name-title {
