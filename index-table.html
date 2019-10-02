@@ -8,7 +8,6 @@
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -87,7 +86,7 @@
 
                             <img class="card-img" src="images/pathfinder.gif" alt="Card image cap" style="width: 60%; margin-left: 20%;">
                             <div class="card-buttons">
-                                <button type="button" class="button-1" href="#">Demo</button>
+                                <button id="pathfinder-proj-button" type="button" class="button-1">Demo</button>
                                 <button type="button" class="button-2" onclick="location.href='https://github.com/aleclouisgrant/AIDreamTeam/tree/master/Project1/'">Source</button>
                             </div>
                         </div>
@@ -114,7 +113,7 @@
 
                             <img class="card-img" src="images/shift_report_tool.png" alt="Card image cap" style="width: 80%; margin-left: 10%;">
                             <div class="card-buttons">
-                                <button type="button" class="button-1" href="#">Demo</button>
+                                <button id="shift_report_tool-proj-button" type="button" class="button-1">Demo</button>
                                 <button type="button" class="button-2-inactive" disabled>NDA</button>
                             </div>
                         </div>
@@ -139,7 +138,7 @@
 
                             <img class="card-img" src="images/melody.gif" alt="Card image cap" style="width: 100%; margin-left: 0%;">
                             <div class="card-buttons">
-                                <button type="button" class="button-1" onclick="location.href='http://google.com'">Demo</button>
+                                <button id="melody-proj-button" type="button" class="button-1">Demo</button>
                                 <button type="button" class="button-2" onclick="location.href='https://github.com/aleclouisgrant/'">Source</button>
                             </div>
                         </div>
@@ -163,7 +162,7 @@
                             </p>
                             <img class="card-img" src="images/sms_bingo.gif" alt="Card image cap" style="width: 100%; margin-left: 0%;">
                             <div class="card-buttons">
-                                <button type="button" class="button-1" href="#">Demo</button>
+                                <button id="sms_bingo-proj-button" type="button" class="button-1">Demo</button>
                                 <button type="button" class="button-2" onclick="location.href='https://github.com/aleclouisgrant/sms-bingo'">Source</button>
                             </div>
                         </div>
@@ -173,32 +172,95 @@
 
         </div>
 
-        <div id="project_view" style="display: flex; flex-wrap: wrap; margin: 0 auto; width: 60%; padding-top: 80px; display: none;">
-            <div style="padding-left:20px; padding-bottom: 50px;">
-                <div class="card">
-                    <div class="row" style="height: 100%; padding: 0px; margin-right: 0px;">
-                        <div class="col col-xl-2 col-lg-2 col-md-2">
-                            <div class="card-bar"></div>
+
+        <!-- Project pages -->
+        <table id="pathfinder-proj" class="tcard" style="display: none;">
+            <tr>
+                <td class="tcard-bar" />
+                <td class="tcard-body-wrapper">
+                    <div class="tcard-body">
+                        <h3 class="tcard-title">Pathfinder</h3>
+                        <h5 class="tcard-subtitle">C# | Windows Presentation Foundation</h5>
+                        <div class="tcard-img">
+                            <img src="images/pathfinder.gif" />
                         </div>
-                        <div class="col" style="display: block; padding: 0px;">
-                            <h3 class="card-title">SMS Bingo</h3>
-                            <h5 class="card-subtitle">C++ | Qt</h5>
-                            <p class="card-text">
-                                C++ application that reads from Dolphin's emulated RAM to keep track
-                                of in-game statistics and connects players to play
-                                Super Mario Sunshine Bingo. GUI built in Qt with custom QWidgets.
-                            </p>
-                            <img class="card-img" src="images/sms_bingo.gif" alt="Card image cap" style="width: 100%; margin-left: 0%;">
-                            <div class="card-buttons">
-                                <button type="button" class="button-1" href="#">Demo</button>
-                                <button type="button" class="button-2" onclick="location.href='https://github.com/aleclouisgrant/sms-bingo'">Source</button>
-                            </div>
+                        <p class="tcard-text">
+                            gui stuff
+                        </p>
+                        <div class="tcard-buttons">
+                            <button type="button" class="button-1 back-button">Back</button>
+                            <button type="button" class="button-2" onclick="location.href='https://github.com/aleclouisgrant/sms-bingo'">Source</button>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
+                </td>
+            </tr>
+        </table>
 
+        <table id="shift_report_tool-proj" class="tcard" style="display: none;">
+            <tr>
+                <td class="tcard-bar" />
+                <td class="tcard-body-wrapper">
+                    <div class="tcard-body">
+                        <h3 class="tcard-title">Shift Report Tool</h3>
+                        <h5 class="tcard-subtitle">C# | WinForms | Visual Basic | Powershell | SQL | Microsoft Access</h5>
+                        <div class="tcard-img">
+                            <img src="images/sms_bingo.png" />
+                        </div>
+                        <p class="tcard-text">
+                            made for Rutgers university
+                        </p>
+                        <div class="tcard-buttons">
+                            <button type="button" class="button-1 back-button">Back</button>
+                            <button type="button" class="button-2" onclick="location.href='https://github.com/aleclouisgrant/sms-bingo'">Source</button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <table id="melody-proj" class="tcard" style="display: none;">
+            <tr>
+                <td class="tcard-bar" />
+                <td class="tcard-body-wrapper">
+                    <div class="tcard-body">
+                        <h3 class="tcard-title">Melody</h3>
+                        <h5 class="tcard-subtitle">C# | Unity Game Engine</h5>
+                        <div class="tcard-img">
+                            <img src="images/sms_bingo.png" />
+                        </div>
+                        <p class="tcard-text">
+                            I made this cool thing
+                        </p>
+                        <div class="tcard-buttons">
+                            <button type="button" class="button-1 back-button">Back</button>
+                            <button type="button" class="button-2" onclick="location.href='https://github.com/aleclouisgrant/sms-bingo'">Source</button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <table id="sms_bingo-proj" class="tcard" style="display: none;">
+            <tr>
+                <td class="tcard-bar" />
+                <td class="tcard-body-wrapper">
+                    <div class="tcard-body">
+                        <h3 class="tcard-title">Super Mario Sunshine Bingo</h3>
+                        <h5 class="tcard-subtitle">C++ | Qt5</h5>
+                        <div class="tcard-img">
+                            <img src="images/sms_bingo.png" />
+                        </div>
+                        <p class="tcard-text">
+                            I made this cool thing
+                        </p>
+                        <div class="tcard-buttons">
+                            <button type="button" class="button-1 back-button">Back</button>
+                            <button type="button" class="button-2" onclick="location.href='https://github.com/aleclouisgrant/sms-bingo'">Source</button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
     </div>
 
 

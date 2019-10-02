@@ -6,6 +6,7 @@
 
 body {
     height: 100%;
+    width: 100%;
     background: #DFD7D3;
     color: #1E1E18;
     font-family: Bahnschrift;
@@ -91,6 +92,7 @@ a, a:link, a:visited {
     font-family: Bahnschrift;
     color: #1E1E18;
     font-size: 35pt;
+    text-decoration: none;
 }
 
 a:hover {
@@ -98,7 +100,7 @@ a:hover {
 }
 
 .row {
-    padding-bottom: 50px;
+    padding-bottom: 0px;
 }
 
 .col {
@@ -106,7 +108,14 @@ a:hover {
     flex-wrap: wrap;
 }
 
+#card_row {
+    margin: 0px auto;
+    width: 90%;
+    padding-top: 80px;
+}
+
 .card {
+    height: 100%;
     background-color: #FBFBFB;
     box-shadow: -5px 5px 6px 1px rgba(93, 89, 79, 0.5);
     padding-left: 0px;
@@ -116,7 +125,7 @@ a:hover {
 }
 .card-bar {
     height: 100%;
-    width: 40px;
+    width: 30px;
     background-color: #E8E8E8;
     padding-right: 0px;
 }
@@ -127,7 +136,7 @@ a:hover {
     margin-bottom: 0px;
 }
 .card-subtitle {
-    font-size: 14pt;
+    font-size: 13pt;
     color: #EB4A30;
     margin-bottom: 10px;
     margin-top: -.2rem;
@@ -140,12 +149,11 @@ a:hover {
 }
 .card-buttons {
     font-size: 12pt;
-    padding: 0;
-    margin-bottom: 0px;
     text-align: center;
+    width: 100%;
+    margin: -60px auto 0px auto;
     position: absolute;
-    top: 90%;
-    margin-left: 16.5%;
+    top: 100%;
 }
 
 .button-1 {
@@ -188,3 +196,83 @@ a:hover {
     text-align: center;
 }
 
+#project_view {
+    
+}
+
+.project_title {
+    font-size: 22pt;
+    font-family: Interstate;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+.tcard {
+    width: 70%;
+    background-color: #FBFBFB;
+    position: relative;
+    margin: 80px auto 30px auto;
+    box-shadow: -5px 5px 6px 1px rgba(93, 89, 79, 0.5);
+}
+
+.tcard-bar {
+    background-color: #E8E8E8;
+    width: 30px;
+}
+
+.tcard-body-wrapper {
+    width: 100%;
+    display: block;
+    padding: 0px 20px;
+}
+
+.tcard-body {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 75px;
+    position: relative;
+}
+
+.tcard-title {
+    font-size: 22pt;
+    font-family: Interstate;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.tcard-subtitle {
+    font-size: 13pt;
+    color: #EB4A30;
+    margin-bottom: 10px;
+    margin-top: -.2rem;
+}
+
+.tcard-text {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #1E1E18;
+    text-align: left;
+    font-family: Bahnschrift;
+}
+
+.tcard-img {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.tcard-buttons {
+    font-size: 12pt;
+    text-align: center;
+    width: 100%;
+    margin: 20px auto 20px auto;
+    position: absolute;
+    top: 100%;
+}
+
+img {
+    width: 100%;
+}
