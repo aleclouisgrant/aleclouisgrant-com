@@ -27,11 +27,25 @@ button {
     position: absolute;
 }
 
+#contact_button {
+    font-family: Bahnschrift;
+    color: #1E1E18;
+    font-size: 35pt;
+    text-decoration: none;
+    background: transparent;
+    border: none !important;
+    font-weight: bold;
+}
+#contact_button:hover {
+    color: #EB4A30;
+}
+#contact_button:active {
+    outline: none;
+}
 
 .container-fluid {
     padding-top: 20px;
 }
-
 
 .header-title {
     width: 100%;
@@ -106,6 +120,18 @@ a:hover {
 .col {
     display: flex;
     flex-wrap: wrap;
+}
+
+#contact_div {
+    width: 60%;
+    margin: 50px auto 0px auto; 
+    position: relative;
+    display: block;
+}
+
+#contact_form {
+    width: 100%;
+    margin: 0 auto;
 }
 
 #card_row {
@@ -196,20 +222,12 @@ a:hover {
     text-align: center;
 }
 
-#project_view {
-    
-}
-
 .project_title {
     font-size: 22pt;
     font-family: Interstate;
     margin-top: 10px;
     margin-bottom: 0px;
 }
-
-
-
-
 
 .tcard {
     width: 70%;
@@ -275,4 +293,13 @@ a:hover {
 
 img {
     width: 100%;
+}
+
+#award_link {
+    color: #EB4A30;
+    font-size: 1rem;
+}
+
+.no-margin {
+    margin: 0;
 }

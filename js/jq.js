@@ -3,6 +3,11 @@ $(document).ready(function () {
     $("#card_row").fadeIn(1000);
 });
 
+/* Contact button */
+$("#contact_button").on("click", function () {
+    $("#contact_div").fadeToggle(500);
+});
+
 /* Project Toggles */
 $("#pathfinder-proj-button").on("click", function () {
     $("#card_row").fadeOut(500);
