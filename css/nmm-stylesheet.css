@@ -1,0 +1,100 @@
+﻿
+body {
+    height: 100%;
+    width: 100%;
+    background: #DFD7D3;
+    color: #1E1E18;
+    font-family: Bahnschrift;
+    text-align: left;
+    overflow-x: hidden;
+    font-size: 20pt;
+}
+
+button {    
+    width: 80px;
+}
+
+.container-fluid {
+    padding-top: 20px;
+}
+
+.row {
+    padding-bottom: 0px;
+    margin: 0;
+}
+
+.col {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.button-1 {
+    background-color: #1E1E18;
+    height: 34px;
+    border-radius: 5rem !important;
+    border-style: none;
+    margin: 5px;
+    display: inline-block;
+    font-family: 'Bahnschrift';
+    font-size: 12pt;
+    color: #FBFBFB;
+    text-align: center;
+}
+
+.tcard {
+    width: 90%;
+    background-color: #FBFBFB;
+    position: relative;
+    margin: 10px;
+    box-shadow: -5px 5px 6px 1px rgba(93, 89, 79, 0.5);
+    height: 150px;
+}
+
+.tcard-bar {
+    background-color: #E8E8E8;
+    width: 30px;
+}
+
+.tcard-body-wrapper {
+    width: 100%;
+    display: block;
+    padding: 0px 20px;
+}
+
+.tcard-body {
+    width: 100%;
+    position: relative;
+}
+
+.tcard-title {
+    font-size: 22pt;
+    font-family: Interstate;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.tcard-subtitle {
+    font-size: 13pt;
+    color: #EB4A30;
+    margin-bottom: 10px;
+    margin-top: -.2rem;
+}
+
+.tcard-text {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #1E1E18;
+    text-align: left;
+    font-family: Bahnschrift;
+}
+
+.tcard-buttons {
+    font-size: 12pt;
+    text-align: center;
+    width: 100%;
+    margin: 20px auto 20px auto;
+    position: absolute;
+    top: 100%;
+}
