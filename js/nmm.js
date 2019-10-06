@@ -23,9 +23,9 @@ function generateMove() {
     var roleText = document.getElementById("role-text");
     var variationText = document.getElementById("variation-text");
 
-    moveText.innerText = moves[getRand(moves.length - 1)];
-    roleText.innerText = roles[getRand(roles.length - 1)];
-    variationText.innerText = variations[getRand(variations.length - 1)];
+    moveText.innerText = moves[getRand(moves.length)];
+    roleText.innerText = roles[getRand(roles.length)];
+    variationText.innerText = variations[getRand(variations.length)];
 }
 
 function getRand(length) {
