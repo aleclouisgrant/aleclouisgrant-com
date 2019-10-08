@@ -82,26 +82,26 @@
                             <h3 class="tcard-title">Contact me!</h3>
                             <h5 class="tcard-subtitle">alec.grant@rutgers.edu | (732) 890-4220</h5>
                             <p class="tcard-text">
-                                I am a tools and application developer well versed in C# with WPF and 
-                                C++ with Qt. I would love to work on building UI/UX that integrates 
-                                the needs of your userbase into a seamless, responsive interface or 
+                                I am a tools and application developer well versed in C# with WPF and
+                                C++ with Qt. I would love to work on building UI/UX that integrates
+                                the needs of your userbase into a seamless, responsive interface or
                                 develop tools to help your company excel with its unique needs. I am
-                                also interested in working on Android mobile application development, 
-                                game development, and Linux application development.  
+                                also interested in working on Android mobile application development,
+                                game development, and Linux application development.
                             </p>
                             <p class="tcard-text">
-                                Please feel free to use the email address listed above or the contact 
+                                Please feel free to use the email address listed above or the contact
                                 form below to get in touch with me. I look forward to hearing from you!
                             </p>
                             <div id="contact_form">
                                 <form method="post" action="contact.php">
-                                    <table>
+                                    <table style="width: 100%;">
                                         <tr>
                                             <td>
-                                                <h5 class="tcard-subtitle no-margin">Email</h5>
+                                                <h5 class="tcard-subtitle no-margin" style="width: 100%;">Email</h5>
                                             </td>
                                             <td>
-                                                <input type="text" />
+                                                <input type="email" required />
                                             </td>
                                         </tr>
                                         <tr>
@@ -114,10 +114,10 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <h5 class="tcard-subtitle">Songs of Praise</h5>
+                                                <h5 class="tcard-subtitle">Message</h5>
                                             </td>
                                             <td>
-                                                <textarea style="width: 100%;"></textarea>
+                                                <textarea type="text" required style="width: 100%;" oninput='this.style.height = "";this.style.height = this.scrollHeight + 3 + "px"'></textarea>
                                             </td>
                                         </tr>
                                         <tr>
@@ -137,112 +137,109 @@
         <!-- Project Cards -->
         <div id="card_row" class="row" style="display: none;">
 
-            <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xlg-3 col-fhd-3 col-rt-3 col-rt15-3 col-uhd-3 col-4k-3 col-8k-3" style="padding-right: 20px; padding-bottom: 50px;">
-                <div class="card" onmouseover="highlightCard(this)" onmouseout="unhighlightCard(this)">
-                    <div class="row" style="height: 100%; padding: 0px; margin-right: 0px;">
-                        <div class="col-2 col-xl-2 col-lg-2 col-md-2">
-                            <div class="card-bar"></div>
-                        </div>
-                        <div class="col" style="display: block; padding: 0px;">
-                            <h3 class="card-title">Pathfinder</h3>
-                            <h5 class="card-subtitle">C# | WPF | XAML</h5>
-                            <p class="card-text">
-                                Visual pathfinding application that implements the A*
-                                Search algorithm. GUI built in C# using WPF and custom components
-                                with XAML.
-                            </p>
-
-                            <img class="card-img" src="images/pathfinder.gif" alt="Card image cap" style="width: 60%; margin-left: 20%;">
-                            <div class="card-buttons">
-                                <button id="pathfinder-proj-button" type="button" class="button-1">Info</button>
-                                <button type="button" class="button-2" onclick="location.href='https://github.com/aleclouisgrant/AIDreamTeam/tree/master/Project1/'">Source</button>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xlg-3 col-fhd-3 col-rt-3 col-rt15-3 col-uhd-3 col-4k-3 col-8k-3" style="padding: 0px 20px 50px 20px;">
+                <table id="pathfinder-proj" class="tcard" onmouseover="highlightCard(this)" onmouseout="unhighlightCard(this)">
+                    <tr>
+                        <td class="tcard-bar" />
+                        <td class="tcard-body-wrapper">
+                            <div class="tcard-body">
+                                <h3 class="tcard-title">Pathfinder</h3>
+                                <h5 class="tcard-subtitle">C# | WPF | XAML</h5>
+                                <p class="tcard-text">
+                                    Visual pathfinding application that implements the A*
+                                    Search algorithm. GUI built in C# using WPF and custom components
+                                    with XAML.
+                                </p>
+                                <img class="tcard-img" src="images/pathfinder.gif" alt="Card image cap" style="width: 60%; margin-left: 20%;">
+                                <div class="tcard-buttons">
+                                    <button id="pathfinder-proj-button" type="button" class="button-1">Info</button>
+                                    <button type="button" class="button-2" onclick="location.href='https://github.com/aleclouisgrant/AIDreamTeam/tree/master/Project1/'">Source</button>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
+                        </td>
+                    </tr>
+                </table>
             </div>
 
             <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xlg-3 col-fhd-3 col-rt-3 col-rt15-3 col-uhd-3 col-4k-3 col-8k-3" style="padding: 0px 20px 50px 20px;">
-                <div class="card" onmouseover="highlightCard(this)" onmouseout="unhighlightCard(this)">
-                    <div class="row" style="height: 100%; padding: 0px; margin-right: 0px;">
-                        <div class="col-2 col-xl-2 col-lg-2 col-md-2">
-                            <div class="card-bar"></div>
-                        </div>
-                        <div class="col" style="display: block; padding: 0px;">
-                            <h3 class="card-title">Shift Report Tool</h3>
-                            <h5 class="card-subtitle">C# | WinForms | VB | Powershell | SQL</h5>
-                            <p class="card-text">
-                                Reporting form for Rutgers University Office of Information
-                                Technology. Employees fill out what duties they performed while on shift in a
-                                Windows Form Application written in C# and Powershell. Sends an email to the
-                                supervisory team and uploads a copy of the report to an Access database via SQL
-                                so supervisors can monitor and run audits on consultant activities.
-                            </p>
-
-                            <img class="card-img" src="images/shift_report_tool.png" alt="Card image cap" style="width: 80%; margin-left: 10%;">
-                            <div class="card-buttons">
-                                <button id="shift_report_tool-proj-button" type="button" class="button-1">Info</button>
-                                <button type="button" class="button-2-inactive" disabled>NDA</button>
+                <table id="pathfinder-proj" class="tcard" onmouseover="highlightCard(this)" onmouseout="unhighlightCard(this)">
+                    <tr>
+                        <td class="tcard-bar" />
+                        <td class="tcard-body-wrapper">
+                            <div class="tcard-body">
+                                <h3 class="tcard-title">Shift Report Tool</h3>
+                                <h5 class="tcard-subtitle">C# | WinForms | VB | Powershell | SQL</h5>
+                                <p class="tcard-text">
+                                    Reporting form for Rutgers University Office of Information
+                                    Technology. Employees fill out what duties they performed while on shift in a
+                                    Windows Form Application written in C# and Powershell. Sends an email to the
+                                    supervisory team and uploads a copy of the report to an Access database via SQL
+                                    so supervisors can monitor and run audits on consultant activities.
+                                </p>
+                                <img class="tcard-img" src="images/shift_report_tool.png" alt="Card image cap" style="width: 80%; margin-left: 10%;">
+                                <div class="tcard-buttons">
+                                    <button id="shift_report_tool-proj-button" type="button" class="button-1">Info</button>
+                                    <button type="button" class="button-2-inactive" disabled>NDA</button>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
+                        </td>
+                    </tr>
+                </table>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xlg-3 col-fhd-3 col-rt-3 col-rt15-3 col-uhd-3 col-4k-3 col-8k-3" style="padding-left:20px; padding-bottom: 50px;">
-                <div class="card" onmouseover="highlightCard(this)" onmouseout="unhighlightCard(this)">
-                    <div class="row" style="height: 100%; padding: 0px; margin-right: 0px;">
-                        <div class="col col-xl-2 col-lg-2 col-md-2">
-                            <div class="card-bar"></div>
-                        </div>
-                        <div class="col" style="display: block; padding: 0px;">
-                            <h3 class="card-title">SMS Bingo Client</h3>
-                            <h5 class="card-subtitle">C++ | Qt</h5>
-                            <p class="card-text">
-                                C++ application that reads from Dolphin's emulated RAM to keep track
-                                of in-game statistics and connects players to play
-                                Super Mario Sunshine Bingo. GUI built in Qt with custom QWidgets.
-                            </p>
-                            <img class="card-img" src="images/sms_bingo.gif" alt="Card image cap" style="width: 100%; margin-left: 0%;">
-                            <div class="card-buttons">
-                                <button id="sms_bingo-proj-button" type="button" class="button-1">Info</button>
-                                <button type="button" class="button-2" onclick="location.href='https://github.com/aleclouisgrant/sms-bingo'">Source</button>
+
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xlg-3 col-fhd-3 col-rt-3 col-rt15-3 col-uhd-3 col-4k-3 col-8k-3" style="padding: 0px 20px 50px 20px;">
+                <table id="pathfinder-proj" class="tcard" onmouseover="highlightCard(this)" onmouseout="unhighlightCard(this)">
+                    <tr>
+                        <td class="tcard-bar" />
+                        <td class="tcard-body-wrapper">
+                            <div class="tcard-body">
+                                <h3 class="tcard-title">SMS Bingo Client</h3>
+                                <h5 class="tcard-subtitle">C++ | Qt5</h5>
+                                <p class="tcard-text">
+                                    C++ application that reads from Dolphin's emulated RAM to keep track
+                                    of in-game statistics and connects players to play
+                                    Super Mario Sunshine Bingo. GUI built in Qt with custom QWidgets.
+                                </p>
+                                <img class="tcard-img" src="images/sms_bingo.gif" alt="Card image cap" style="width: 100%; margin-left: 0%;">
+                                <div class="tcard-buttons">
+                                    <button id="sms_bingo-proj-button" type="button" class="button-1">Info</button>
+                                    <button type="button" class="button-2" onclick="location.href='https://github.com/aleclouisgrant/sms-bingo'">Source</button>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
+                        </td>
+                    </tr>
+                </table>
             </div>
 
             <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xlg-3 col-fhd-3 col-rt-3 col-rt15-3 col-uhd-3 col-4k-3 col-8k-3" style="padding: 0px 20px 50px 20px;">
-                <div class="card" onmouseover="highlightCard(this)" onmouseout="unhighlightCard(this)">
-                    <div class="row" style="height: 100%; padding: 0px; margin-right: 0px;">
-                        <div class="col col-xl-2 col-lg-2 col-md-2">
-                            <div class="card-bar"></div>
-                        </div>
-                        <div class="col" style="display: block; padding: 0px;">
-                            <h3 class="card-title">Melody</h3>
-                            <h5 class="card-subtitle">C# | Unity3D</h5>
-                            <p class="card-text">
-                                Mobile rhythm game released on independent game development
-                                site. Garnered over 7000 views and over 1000 downloads. Developed in a
-                                collaborative setting utilizing git and a kanban workflow.
-                            </p>
-
-                            <img class="card-img" src="images/melody.gif" alt="Card image cap" style="width: 100%; margin-left: 0%;">
-                            <div class="card-buttons">
-                                <button id="melody-proj-button" type="button" class="button-1">Info</button>
-                                <button type="button" class="button-2" onclick="location.href='https://bitbucket.org/aleclouisgrant/melody/'">Source</button>
+                <table id="pathfinder-proj" class="tcard" onmouseover="highlightCard(this)" onmouseout="unhighlightCard(this)">
+                    <tr>
+                        <td class="tcard-bar" />
+                        <td class="tcard-body-wrapper">
+                            <div class="tcard-body">
+                                <h3 class="tcard-title">Melody</h3>
+                                <h5 class="tcard-subtitle">C# | Unity3D</h5>
+                                <p class="tcard-text">
+                                    Mobile rhythm game released on independent game development
+                                    site. Garnered over 7000 views and over 1000 downloads. Developed in a
+                                    collaborative setting utilizing git and a kanban workflow.
+                                </p>
+                                <img class="tcard-img" src="images/melody.gif" alt="Card image cap" style="width: 100%; margin-left: 0%;">
+                                <div class="tcard-buttons">
+                                    <button id="melody-proj-button" type="button" class="button-1">Info</button>
+                                    <button type="button" class="button-2" onclick="location.href='https://bitbucket.org/aleclouisgrant/melody/'">Source</button>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
+                        </td>
+                    </tr>
+                </table>
             </div>
 
         </div>
 
-
         <!-- Project pages -->
-        <table id="pathfinder-proj" class="tcard" style="display: none;">
+        <table id="pathfinder-proj" class="proj-tcard" style="display: none;">
             <tr>
                 <td class="tcard-bar" />
                 <td class="tcard-body-wrapper">
@@ -253,22 +250,22 @@
                             <img src="images/pathfinder.gif" />
                         </div>
                         <p class="tcard-text">
-                            The Pathfinder application is built using C# and Windows Presentation 
-                            Foundation in Visual Studio with an abundance of custom XAML objects 
-                            to make creating grids with varied terrain quickly and dynamically. 
+                            The Pathfinder application is built using C# and Windows Presentation
+                            Foundation in Visual Studio with an abundance of custom XAML objects
+                            to make creating grids with varied terrain quickly and dynamically.
                             Grid size, start and goal locations, density of nontraversible spaces,
                             and more are options available during runtime. Custom maps can be made
                             by clicking on spaces to toggle whether they are traversible or not.
                         </p>
                         <p class="tcard-text">
-                            Pathfinding is implemented using the A* algorithm with 3 different 
-                            distance calculation heuristics available (Manhatten, Chebyshev, or 
-                            Euclidean). After the path has been calculated, each step is printed 
-                            on the bottom of the screen, as well as the total steps to complete the 
-                            path, and the whether the goal space is accessible from teh start space 
+                            Pathfinding is implemented using the A* algorithm with 3 different
+                            distance calculation heuristics available (Manhatten, Chebyshev, or
+                            Euclidean). After the path has been calculated, each step is printed
+                            on the bottom of the screen, as well as the total steps to complete the
+                            path, and the whether the goal space is accessible from teh start space
                             at all.
                         </p>
-                        <div class="tcard-buttons">
+                        <div class="proj-tcard-buttons">
                             <button type="button" class="button-1 back-button">Back</button>
                             <button type="button" class="button-2" onclick="location.href='https://github.com/aleclouisgrant/sms-bingo'">Source</button>
                         </div>
@@ -277,7 +274,7 @@
             </tr>
         </table>
 
-        <table id="shift_report_tool-proj" class="tcard" style="display: none;">
+        <table id="shift_report_tool-proj" class="proj-tcard" style="display: none;">
             <tr>
                 <td class="tcard-bar" />
                 <td class="tcard-body-wrapper">
@@ -316,50 +313,50 @@
                         <p class="tcard-text">
                             access database
 
-                            Supervisors can access the reports submitted by consultants through a 
-                            Microsoft Access database. Custom interfaces were developed to make finding 
+                            Supervisors can access the reports submitted by consultants through a
+                            Microsoft Access database. Custom interfaces were developed to make finding
                             specific reports easy and fast.
                         </p>
                         <p class="tcard-text">
-                            Supervisors were able find information much easier with this new system 
+                            Supervisors were able find information much easier with this new system
                             implemented. While they used to have thousands of rounds to sift through
-                            each week, they now were able to see full reports and filter by 
+                            each week, they now were able to see full reports and filter by
                             consultant, date range, location, and more. This dramatically reduced the
-                            amount of time supervisors spent reading through reports for important 
+                            amount of time supervisors spent reading through reports for important
                             information on the upkeep of the computer labs across campus.
                         </p>
                         <p class="tcard-text">
 
-                            Additional organizational information was scraped from various company 
+                            Additional organizational information was scraped from various company
                             resources using Powershell and VBA scripts.
                         </p>
                         <p class="tcard-text">
-                            For the development, documentation, and implementation I completed on 
-                            this project, as well as the other projects I headed during my time at 
-                            the University, I was awarded Supervisor Achievement Award in Fall 2017. 
-                            My immediate supervisors wrote an award letter which can be read in full 
+                            For the development, documentation, and implementation I completed on
+                            this project, as well as the other projects I headed during my time at
+                            the University, I was awarded Supervisor Achievement Award in Fall 2017.
+                            My immediate supervisors wrote an award letter which can be read in full
                             following the excerpt below.
                         </p>
                         <p class="tcard-text" style="color: #9c9c9c;">
-                            "...he has made major contributions to the Busch Labs. It has been a 
-                            while since we have had a supervisor who has made such an impact on what 
-                            we do on a day to day basis. Alec's contributions to the staff this year 
-                            will be used for many semesters to come. Alec developed a new lost and 
-                            found tracker and responder for the Busch supervisors, allowing them to 
-                            send auto-generated e-mails with a few clicks for lost and found. In 
-                            addition to that, Alec also developed a shift report tool for our Kessler 
-                            Lab consultants. This tool has been helping our consultants send in more 
-                            detailed, organized, and standardized shift reports to the supervisory 
-                            staff versus the previous method. The best aspect of both these projects 
-                            Alec completed this semester is that he took it upon himself to start and 
-                            complete both of them. He was not asked to create these tools. Instead, 
-                            he saw something that could be improved, did it, and then brought it to 
-                            the staff once he had something to show us. Alec is definitely talented 
-                            in developing these tools, but the thing that sets him apart is his 
+                            "...he has made major contributions to the Busch Labs. It has been a
+                            while since we have had a supervisor who has made such an impact on what
+                            we do on a day to day basis. Alec's contributions to the staff this year
+                            will be used for many semesters to come. Alec developed a new lost and
+                            found tracker and responder for the Busch supervisors, allowing them to
+                            send auto-generated e-mails with a few clicks for lost and found. In
+                            addition to that, Alec also developed a shift report tool for our Kessler
+                            Lab consultants. This tool has been helping our consultants send in more
+                            detailed, organized, and standardized shift reports to the supervisory
+                            staff versus the previous method. The best aspect of both these projects
+                            Alec completed this semester is that he took it upon himself to start and
+                            complete both of them. He was not asked to create these tools. Instead,
+                            he saw something that could be improved, did it, and then brought it to
+                            the staff once he had something to show us. Alec is definitely talented
+                            in developing these tools, but the thing that sets him apart is his
                             proactivity and eagerness to find a solution to a potential problem. ..."
                         </p>
                         <a id="award_link" href="https://www.nbcs.rutgers.edu/ccf/main/recognition/previous.php?last=G#alg63">Award letter</a>
-                        <div class="tcard-buttons">
+                        <div class="proj-tcard-buttons">
                             <button type="button" class="button-1 back-button">Back</button>
                             <button type="button" class="button-2" onclick="location.href='https://github.com/aleclouisgrant/sms-bingo'">Source</button>
                         </div>
@@ -368,7 +365,7 @@
             </tr>
         </table>
 
-        <table id="melody-proj" class="tcard" style="display: none;">
+        <table id="melody-proj" class="proj-tcard" style="display: none;">
             <tr>
                 <td class="tcard-bar" />
                 <td class="tcard-body-wrapper">
@@ -379,23 +376,23 @@
                             <img src="images/melody.gif" />
                         </div>
                         <p class="tcard-text">
-                            Melody was a mobile rhythm game developed for Android in C# via the 
-                            Unity game engine. I worked collaboratively with two other developers 
-                            to realize our vision. I was jointly responsible for programming as 
+                            Melody was a mobile rhythm game developed for Android in C# via the
+                            Unity game engine. I worked collaboratively with two other developers
+                            to realize our vision. I was jointly responsible for programming as
                             well as headed UI/UX design, social media, and art direction.
                         </p>
                         <p class="tcard-text">
                             To maximize the efficiency of our collaboration, our team used a kanban
-                            workflow and made consistent commits to our BitBucket repository. The 
+                            workflow and made consistent commits to our BitBucket repository. The
                             game was featured on the front page of the independent game development
-                            website where we published our demo version, itch.io, and over it's 
+                            website where we published our demo version, itch.io, and over it's
                             development stage garnered over 7000 page views and over 1000 downloads.
                         </p>
                         <p class="tcard-text">
-                            Melody is available for download for Android at 
+                            Melody is available for download for Android at
                             https://melodygame.itch.io/melody
                         </p>
-                        <div class="tcard-buttons">
+                        <div class="proj-tcard-buttons">
                             <button type="button" class="button-1 back-button">Back</button>
                             <button type="button" class="button-2" onclick="location.href='https://github.com/aleclouisgrant/sms-bingo'">Source</button>
                         </div>
@@ -404,7 +401,7 @@
             </tr>
         </table>
 
-        <table id="sms_bingo-proj" class="tcard" style="display: none;">
+        <table id="sms_bingo-proj" class="proj-tcard" style="display: none;">
             <tr>
                 <td class="tcard-bar" />
                 <td class="tcard-body-wrapper">
@@ -415,24 +412,24 @@
                             <img src="images/sms_bingo.gif" />
                         </div>
                         <p class="tcard-text">
-                            C++/Qt5 application that hooks into Dolphin's emulated RAM to read values 
-                            for SMS Bingo. Bingo spaces are not selectable until the proper values have 
-                            been read from the game's RAM. Once the application sees the correct 
+                            C++/Qt5 application that hooks into Dolphin's emulated RAM to read values
+                            for SMS Bingo. Bingo spaces are not selectable until the proper values have
+                            been read from the game's RAM. Once the application sees the correct
                             requirements have been met to allow the player to select the corresponding
-                            bingo space, the space turns red. The player can then select the space 
-                            themselves. The application can also immediately select the corresponding 
-                            space automatically once the requirements have been met. No changes to 
-                            Dolphin have to be made for this to work - the program does all the work 
+                            bingo space, the space turns red. The player can then select the space
+                            themselves. The application can also immediately select the corresponding
+                            space automatically once the requirements have been met. No changes to
+                            Dolphin have to be made for this to work - the program does all the work
                             hooking to Dolphin itself.
                         </p>
                         <p class="tcard-text">
-                            This project is currently in development and is intended to have online 
-                            multiplayer as well as a spectator client that allows for a detailed look 
-                            at what each player has acquired over the course of the bingo game. This 
-                            application is also intended to work with the Wii's USB port so people can 
+                            This project is currently in development and is intended to have online
+                            multiplayer as well as a spectator client that allows for a detailed look
+                            at what each player has acquired over the course of the bingo game. This
+                            application is also intended to work with the Wii's USB port so people can
                             play over console and cross platform (console/Dolphin).
                         </p>
-                        <div class="tcard-buttons">
+                        <div class="proj-tcard-buttons">
                             <button type="button" class="button-1 back-button">Back</button>
                             <button type="button" class="button-2" onclick="location.href='https://github.com/aleclouisgrant/sms-bingo'">Source</button>
                         </div>

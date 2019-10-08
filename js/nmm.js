@@ -1,8 +1,10 @@
 ﻿var moves = [
     "Sugar push",
     "Whip",
+    "Underarm turn",
+    "Left side pass",
     "Right side pass",
-    "Left side pass"
+    "Open whip"
 ];
 
 var roles = ["leader's", "follower's"];
@@ -14,7 +16,8 @@ var variations = [
     "drape.",
     "drop.",
     "head duck.",
-    "lean."
+    "lean.",
+    "zouk turn."
 ];
 
 
