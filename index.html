@@ -35,11 +35,21 @@
 
 </head>
 
-<body>
+<body onresize="displayHeader()" onload="displayHeader()">
+    <!-- Mobile Header -->
+    <div id="mobile-header" style="display: none;">
+        <img src="images/mobile_logo.png" style="width:100%;">
+
+        <div>
+            <button id="contact_button_mobile" class="contact-button" type="button" style="width: fit-content; font-size: 2em;">contact</button>
+            <a href="data/Resume_Alec_Grant.pdf" target="_blank" style="font-size: 2em; position: relative; left:100%; margin-left: -235px;">resume</a>
+        </div>
+    </div>
+
     <div class="container-fluid">
 
-        <!-- Header -->
-        <div class="header-title">
+        <!-- Desktop Header -->
+        <div id="desktop-header" class="header-title">
             <div class="lines-left">
                 <div class="header-line" style="background: #1E1E18; width: 100px;"></div>
                 <div class="header-line" style="background: #342D29; width: 70px;"></div>
@@ -66,7 +76,7 @@
             </div>
 
             <div class="contact-buttons">
-                <button id="contact_button" type="button">contact</button>
+                <button id="contact_button" class="contact-button" type="button">contact</button>
                 <div style="display: inline-block; width: 95px;"></div>
                 <a href="data/Resume_Alec_Grant.pdf" target="_blank">resume</a>
             </div>
@@ -241,7 +251,6 @@
         <!-- Project pages -->
         <table id="pathfinder-proj" class="proj-tcard" style="display: none;">
             <tr>
-                <td class="tcard-bar" />
                 <td class="tcard-body-wrapper">
                     <div class="tcard-body">
                         <h3 class="tcard-title">Pathfinder</h3>
@@ -276,7 +285,6 @@
 
         <table id="shift_report_tool-proj" class="proj-tcard" style="display: none;">
             <tr>
-                <td class="tcard-bar" />
                 <td class="tcard-body-wrapper">
                     <div class="tcard-body">
                         <h3 class="tcard-title">Shift Report Tool</h3>
@@ -367,7 +375,6 @@
 
         <table id="melody-proj" class="proj-tcard" style="display: none;">
             <tr>
-                <td class="tcard-bar" />
                 <td class="tcard-body-wrapper">
                     <div class="tcard-body">
                         <h3 class="tcard-title">Melody</h3>
@@ -403,7 +410,6 @@
 
         <table id="sms_bingo-proj" class="proj-tcard" style="display: none;">
             <tr>
-                <td class="tcard-bar" />
                 <td class="tcard-body-wrapper">
                     <div class="tcard-body">
                         <h3 class="tcard-title">Super Mario Sunshine Bingo Client</h3>
@@ -439,8 +445,8 @@
         </table>
     </div>
 
-<script src="js/index.js"></script>
-<script src="js/jq.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/jq.js"></script>
 
 </body>
 </html>
