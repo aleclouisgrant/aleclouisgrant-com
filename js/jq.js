@@ -6,9 +6,11 @@ $(document).ready(function () {
 /* Contact buttons */
 $("#contact_button").on("click", function () {
     $("#contact_div").fadeToggle(500);
+    $("#contact_div").width('60%');
 });
 $("#contact_button_mobile").on("click", function () {
     $("#contact_div").fadeToggle(500);
+    $("#contact_div").width('90%');
 });
 
 
