@@ -3,10 +3,14 @@ $(document).ready(function () {
     $("#card_row").fadeIn(1000);
 });
 
-/* Contact button */
+/* Contact buttons */
 $("#contact_button").on("click", function () {
     $("#contact_div").fadeToggle(500);
 });
+$("#contact_button_mobile").on("click", function () {
+    $("#contact_div").fadeToggle(500);
+});
+
 
 /* Project Toggles */
 $("#pathfinder-proj-button").on("click", function () {
