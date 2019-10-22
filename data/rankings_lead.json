@@ -1,0 +1,282 @@
+[
+  {
+    "first_name": "Joel",
+    "last_name": "Torgeson",
+    "id": 10175,
+    "total": 61,
+    "ranking": 1
+  },
+  {
+    "first_name": "Philipp",
+    "last_name": "Wolff",
+    "id": 12962,
+    "total": 20,
+    "ranking": 2
+  },
+  {
+    "first_name": "Ken",
+    "last_name": "Rutland",
+    "id": 12638,
+    "total": 20,
+    "ranking": 2
+  },
+  {
+    "first_name": "Conor",
+    "last_name": "McClure",
+    "id": 13314,
+    "total": 19,
+    "ranking": 4
+  },
+  {
+    "first_name": "Dillon",
+    "last_name": "Luther",
+    "id": 12273,
+    "total": 18,
+    "ranking": 5
+  },
+  {
+    "first_name": "Philippe",
+    "last_name": "Berne",
+    "id": 10867,
+    "total": 18,
+    "ranking": 5
+  },
+  {
+    "first_name": "Keith",
+    "last_name": "Penu",
+    "id": 12344,
+    "total": 14,
+    "ranking": 7
+  },
+  {
+    "first_name": "Stanislav",
+    "last_name": "Ivanov",
+    "id": 10047,
+    "total": 12,
+    "ranking": 8
+  },
+  {
+    "first_name": "Carl",
+    "last_name": "Boije",
+    "id": 13521,
+    "total": 11,
+    "ranking": 9
+  },
+  {
+    "first_name": "J Khayree",
+    "last_name": "Jones",
+    "id": 13465,
+    "total": 11,
+    "ranking": 9
+  },
+  {
+    "first_name": "Rolf",
+    "last_name": "Eirik",
+    "id": 14057,
+    "total": 10,
+    "ranking": 11
+  },
+  {
+    "first_name": "Joao",
+    "last_name": "Parada",
+    "id": 10214,
+    "total": 10,
+    "ranking": 11
+  },
+  {
+    "first_name": "Konstantin",
+    "last_name": "Baranov",
+    "id": 10079,
+    "total": 9,
+    "ranking": 13
+  },
+  {
+    "first_name": "Ryan",
+    "last_name": "Boz",
+    "id": 11486,
+    "total": 7,
+    "ranking": 14
+  },
+  {
+    "first_name": "Byron",
+    "last_name": "Brunerie",
+    "id": 11139,
+    "total": 7,
+    "ranking": 14
+  },
+  {
+    "first_name": "Alexander",
+    "last_name": "Stavola",
+    "id": 14156,
+    "total": 6,
+    "ranking": 16
+  },
+  {
+    "first_name": "Za",
+    "last_name": "Thomaier",
+    "id": 11267,
+    "total": 6,
+    "ranking": 16
+  },
+  {
+    "first_name": "Oliver",
+    "last_name": "Monroy",
+    "id": 14674,
+    "total": 5,
+    "ranking": 18
+  },
+  {
+    "first_name": "Alejandro",
+    "last_name": "Hernandez",
+    "id": 13589,
+    "total": 5,
+    "ranking": 18
+  },
+  {
+    "first_name": "Andrew",
+    "last_name": "Mitchell",
+    "id": 12360,
+    "total": 5,
+    "ranking": 18
+  },
+  {
+    "first_name": "Austin",
+    "last_name": "Scharnhorst",
+    "id": 10423,
+    "total": 5,
+    "ranking": 18
+  },
+  {
+    "first_name": "Guigo",
+    "last_name": "Sortica",
+    "id": 14072,
+    "total": 4,
+    "ranking": 22
+  },
+  {
+    "first_name": "Joshu",
+    "last_name": "Creel",
+    "id": 14049,
+    "total": 4,
+    "ranking": 22
+  },
+  {
+    "first_name": "Edem",
+    "last_name": "Attikese",
+    "id": 10371,
+    "total": 4,
+    "ranking": 22
+  },
+  {
+    "first_name": "Deon",
+    "last_name": "Harrell",
+    "id": 15300,
+    "total": 3,
+    "ranking": 25
+  },
+  {
+    "first_name": "Alex",
+    "last_name": "Glover",
+    "id": 14152,
+    "total": 3,
+    "ranking": 25
+  },
+  {
+    "first_name": "Zoltan",
+    "last_name": "Jaszai",
+    "id": 13681,
+    "total": 3,
+    "ranking": 25
+  },
+  {
+    "first_name": "Andrey",
+    "last_name": "Navolotskiy",
+    "id": 11023,
+    "total": 3,
+    "ranking": 25
+  },
+  {
+    "first_name": "Ville",
+    "last_name": "Immonen",
+    "id": 10612,
+    "total": 3,
+    "ranking": 25
+  },
+  {
+    "first_name": "Sergey",
+    "last_name": "Khakhlev",
+    "id": 10569,
+    "total": 3,
+    "ranking": 25
+  },
+  {
+    "first_name": "Pato",
+    "last_name": "Lankenau",
+    "id": 14485,
+    "total": 2,
+    "ranking": 31
+  },
+  {
+    "first_name": "Kyle",
+    "last_name": "Lapatin",
+    "id": 12140,
+    "total": 2,
+    "ranking": 31
+  },
+  {
+    "first_name": "Miquel",
+    "last_name": "Menendez",
+    "id": 11874,
+    "total": 2,
+    "ranking": 31
+  },
+  {
+    "first_name": "Brian",
+    "last_name": "Sforzo",
+    "id": 11163,
+    "total": 2,
+    "ranking": 31
+  },
+  {
+    "first_name": "Tim",
+    "last_name": "He",
+    "id": 11128,
+    "total": 1,
+    "ranking": 35
+  },
+  {
+    "first_name": "Aleksandr",
+    "last_name": "Rozhkov",
+    "id": 11027,
+    "total": 1,
+    "ranking": 35
+  },
+  {
+    "first_name": "Bruno",
+    "last_name": "Motta",
+    "id": 10839,
+    "total": 1,
+    "ranking": 35
+  },
+  {
+    "first_name": "Maxwell",
+    "last_name": "Libbrecht",
+    "id": 10741,
+    "total": 1,
+    "ranking": 35
+  },
+  {
+    "first_name": "Jesse",
+    "last_name": "Lopez",
+    "id": 10386,
+    "total": 1,
+    "ranking": 35
+  },
+  {
+    "first_name": "Jason",
+    "last_name": "Toy",
+    "id": 10357,
+    "total": 1,
+    "ranking": 35
+  }
+]
