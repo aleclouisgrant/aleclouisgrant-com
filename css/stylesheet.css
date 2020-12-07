@@ -1,4 +1,19 @@
-﻿.header-line {
+﻿@font-face {
+    font-family: Bahnschrift;
+    src: url(fonts/BAHNSCHRIFT.TTF);
+}
+
+@font-face {
+    font-family: Bauhaus93;
+    src: url(fonts/BAUHAUS93.TTF);
+}
+
+@font-face {
+    font-family: Interstate;
+    src: url(fonts/Interstate-bold.ttf);
+}
+
+.header-line {
     height: 40px;
     width: auto;
     margin-top: 5px;
@@ -53,7 +68,7 @@ button {
     text-align: left;
     font-size: 30pt;
     color: #1E1E18;
-    font-family: 'Bahnschrift';
+    font-family: Bahnschrift;
     padding-top: 40px;
     padding-bottom: 0px;
     height: 220px;
@@ -89,7 +104,7 @@ button {
 
 
 .logo-title {
-    font-family: 'Bauhaus 93';
+    font-family: Bauhaus93;
     color: #EB4A30;
     text-align: center;
 }
@@ -97,7 +112,7 @@ button {
 .name-title {
     font-family: Interstate;
     color: #1E1E18;
-    letter-spacing: -10px;
+    letter-spacing: -9px;
     display: block;
     position: absolute;
 }
@@ -136,10 +151,15 @@ a:hover {
     margin: 0 auto;
 }
 
-#card_row {
-    margin: 0px auto;
+#top_row {
+}
+
+#bottom_row {
+}
+
+.card_row {
+    margin: 0 auto;
     width: 90%;
-    padding-top: 80px;
 }
 
 .card {
@@ -243,6 +263,18 @@ a:hover {
     width: 30px;
 }
 
+.tcard-bar-text-wrapper {
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    width: inherit;
+    margin-top: 500px;
+}
+
+.tcard-bar-text {
+    text-align: right;
+    width: 500px;
+}
+
 .tcard-body-wrapper {
     width: 100%;
     height: 100%;
@@ -262,7 +294,7 @@ a:hover {
     font-size: 22pt;
     font-family: Interstate;
     margin-top: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 2px;
 }
 
 .tcard-subtitle {

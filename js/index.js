@@ -1,9 +1,25 @@
 ﻿function highlightCard(x) {
-    x.children[0].children[0].children[0].style.background = "#EB4A30";
+    var bar = x.getElementsByClassName("tcard-bar")[0];
+    if (bar != null) {
+        bar.style.background = "#EB4A30";
+
+        var text = bar.getElementsByClassName("tcard-bar-text")[0];
+        if (typeof (text) != 'undefined' && text != null) {
+            text.style.color = "#FFFFFF";
+        }
+    }
 }
 
 function unhighlightCard(x) {
-    x.children[0].children[0].children[0].style.background = "#E8E8E8";
+    var bar = x.getElementsByClassName("tcard-bar")[0];
+    if (bar != null) {
+        bar.style.background = "#E8E8E8";
+
+        var text = bar.getElementsByClassName("tcard-bar-text")[0];
+        if (typeof (text) != 'undefined' && text != null) {
+            text.style.color = "#000000";
+        }
+    }
 }
 
 function displayHeader() {

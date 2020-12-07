@@ -62,7 +62,7 @@
                 <div class="logo-title" style="font-size: 194pt; position: absolute; top: -77px;">a</div>
                 <div class="logo-title" style="font-size: 139pt; position: absolute; left: 112px;">G</div>
             </div>
-            <div class="col" style="display: block; position: absolute; left: 304px;">
+            <div class="col" style="display: block; position: absolute; left: 310px;">
                 <a class="name-title" style="font-size: 58pt; top:-23px; left: -3px;">ALEC GRANT</a>
                 <a class="name-title" style="font-size: 66pt; top: 39px;">DEVELOPER</a>
             </div>
@@ -90,17 +90,17 @@
                     <td class="tcard-body-wrapper">
                         <div class="tcard-body" style="margin-bottom: 10px;">
                             <h3 class="tcard-title">Contact me!</h3>
-                            <h5 class="tcard-subtitle">alec.grant@rutgers.edu | (732) 890-4220</h5>
+                            <h5 class="tcard-subtitle">aleclouisgrant@gmail.com | (732) 890-4220</h5>
                             <p class="tcard-text">
-                                I am a tools and application developer well versed in C# with WPF and
-                                C++ with Qt. I would love to work on building UI/UX that integrates
+                                I am a tools and application developer well versed in C# alone and in WPF.
+                                I also have skill in C++ with Qt and C# WebAPI development to connect your clients to your service
+                                however they need to access it.
+                                I would love to work on building UI/UX that integrates
                                 the needs of your userbase into a seamless, responsive interface or
-                                develop tools to help your company excel with its unique needs. I am
-                                also interested in working on Android mobile application development,
-                                game development, and Linux application development.
+                                develop tools to help your company excel within its unique needs.
                             </p>
                             <p class="tcard-text">
-                                Please feel free to use the email address listed above to get in touch 
+                                Please feel free to use the email address listed above to get in touch
                                 with me. I look forward to hearing from you!
                             </p>
                             <div id="contact_form" style="display:none;">
@@ -144,113 +144,483 @@
             </table>
         </div>
 
-        <!-- Project Cards -->
-        <div id="card_row" class="row" style="display: none;">
-
-
-
-            <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xlg-3 col-fhd-3 col-rt-3 col-rt15-3 col-uhd-3 col-4k-3 col-8k-3" style="padding: 0px 20px 50px 20px;">
-                <table class="tcard" onmouseover="highlightCard(this)" onmouseout="unhighlightCard(this)">
-                    <tr>
-                        <td class="tcard-bar" />
-                        <td class="tcard-body-wrapper">
-                            <div class="tcard-body">
-                                <h3 class="tcard-title">Shift Report Tool</h3>
-                                <h5 class="tcard-subtitle">C# | WinForms | VB | Powershell | SQL</h5>
-                                <p class="tcard-text">
-                                    Reporting form for Rutgers University Office of Information
-                                    Technology. Employees fill out what duties they performed while on shift in a
-                                    Windows Form Application written in C# and Powershell. Sends an email to the
-                                    supervisory team and uploads a copy of the report to an Access database via SQL
-                                    so supervisors can monitor and run audits on consultant activities.
-                                </p>
-                                <img class="tcard-img" src="images/consultant_report.png" alt="Card image cap" style="width: 80%; margin-left: 10%;">
-                                <div class="tcard-buttons">
-                                    <button id="shift_report_tool-proj-button" type="button" class="button-1">Info</button>
-                                    <button type="button" class="button-2-inactive" disabled>NDA</button>
+        <!-- Cards -->
+        <div id="cards" style="display: none; padding-top: 60px; margin: 0;">
+            <div id="top_row" class="row card_row">
+                <!-- Show Control -->
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xlg-3 col-fhd-3 col-rt-3 col-rt15-3 col-uhd-3 col-4k-3 col-8k-3" style="padding: 0px 20px 50px 20px;">
+                    <table class="tcard" onmouseover="highlightCard(this)" onmouseout="unhighlightCard(this)">
+                        <tr>
+                            <td class="tcard-bar">
+                                <div class="tcard-bar-text-wrapper">
+                                    <div class="tcard-bar-text">
+                                        Quatrefoil Associates
+                                    </div>
                                 </div>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
+                            </td>
+                            <td class="tcard-body-wrapper">
+                                <div class="tcard-body">
+                                    <h3 class="tcard-title">Exhibit Show Contol</h3>
+                                    <h5 class="tcard-subtitle">C# | MQTT | Node-RED | Windows Service</h5>
+                                    <p class="tcard-text">
+                                        Custom comprehensive remote control software to handle scheduling daily shutdowns and startups, restarts, connection
+                                        checks, and error and usage logging of all exhibit devices. Deployed in all of the firm’s ongoing museum projects. Windows
+                                        based devices are controlled by a Windows Service + MQTT routed through a Raspberry Pi running a Node-RED server.
+                                    </p>
+                                    <img class="tcard-img" src="images/showcontrol2.png" alt="Card image cap" style="width: 80%; margin-left: 10%;">
+                                    <div class="tcard-buttons">
+                                        <button id="show-control-proj-button" type="button" class="button-1">Info</button>
+                                        <button type="button" class="button-2-inactive" disabled>NDA</button>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <!-- Picket Fence -->
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xlg-3 col-fhd-3 col-rt-3 col-rt15-3 col-uhd-3 col-4k-3 col-8k-3" style="padding: 0px 20px 50px 20px;">
+                    <table class="tcard" onmouseover="highlightCard(this)" onmouseout="unhighlightCard(this)">
+                        <tr>
+                            <td class="tcard-bar">
+                                <div class="tcard-bar-text-wrapper">
+                                    <div class="tcard-bar-text">
+
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="tcard-body-wrapper">
+                                <div class="tcard-body">
+                                    <h3 class="tcard-title">Picket Fence Ranking System</h3>
+                                    <h5 class="tcard-subtitle">C# | ASP.NET | Blazor | Web APIs | MongoDB</h5>
+                                    <p class="tcard-text">
+                                        Sole full stack developer and designer on a ranking system for professional swing dance competitors. Created a custom
+                                        ELO-based algorithm. Competitor records are stored in a Mongo database and served by a Blazor built website via web APIs.
+                                    </p>
+                                    <img class="tcard-img" src="images/picket_fence.jpg" alt="Card image cap" style="width: 50%; margin-left: 25%;">
+                                    <div class="tcard-buttons">
+                                        <button id="picket-fence-proj-button" type="button" class="button-1">Info</button>
+                                        <button type="button" class="button-2-inactive" disabled>NDA</button>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <!-- American Cemeteries -->
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xlg-3 col-fhd-3 col-rt-3 col-rt15-3 col-uhd-3 col-4k-3 col-8k-3" style="padding: 0px 20px 50px 20px;">
+                    <table class="tcard" onmouseover="highlightCard(this)" onmouseout="unhighlightCard(this)">
+                        <tr>
+                            <td class="tcard-bar">
+                                <div class="tcard-bar-text-wrapper">
+                                    <div class="tcard-bar-text">
+                                        National Flag Foundation
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="tcard-body-wrapper">
+                                <div class="tcard-body">
+                                    <h3 class="tcard-title">American Cemeteries Touchless Exhibit</h3>
+                                    <h5 class="tcard-subtitle">C# | WPF | LEAP Motion</h5>
+                                    <p class="tcard-text">
+                                        Museum exhibit developed for the National Flag Foundation in Pittsburgh, PA. Displays information on international
+                                        American war cemeteries. Visitors interact with the exhibit touchlessly by using hand gestures to click and scroll.
+                                    </p>
+                                    <img class="tcard-img" src="images/amcem.png" alt="Card image cap" style="width: 80%; margin-left: 10%;">
+                                    <div class="tcard-buttons">
+                                        <button id="american-cemeteries-proj-button" type="button" class="button-1">Info</button>
+                                        <button type="button" class="button-2-inactive" disabled>NDA</button>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <!-- FlexCell To Google Sheets Exporter -->
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xlg-3 col-fhd-3 col-rt-3 col-rt15-3 col-uhd-3 col-4k-3 col-8k-3" style="padding: 0px 20px 50px 20px;">
+                    <table class="tcard" onmouseover="highlightCard(this)" onmouseout="unhighlightCard(this)">
+                        <tr>
+                            <td class="tcard-bar">
+                                <div class="tcard-bar-text-wrapper">
+                                    <div class="tcard-bar-text">
+                                        Project Worldwide
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="tcard-body-wrapper">
+                                <div class="tcard-body">
+                                    <h3 class="tcard-title">FlexCell to Google Sheets Export Library</h3>
+                                    <h5 class="tcard-subtitle">C# | VBA | OAuth 2.0</h5>
+                                    <p class="tcard-text">
+                                        Custom library that converts FlexCell graphs to a Google Sheet as part of an effort to modernize the client's legacy
+                                        in house VBA and Windows Form based applications.
+                                    </p>
+                                    <img class="tcard-img" src="images/xpd8.png" alt="Card image cap" style="width: 80%; margin-left: 10%;">
+                                    <div class="tcard-buttons">
+                                        <button id="exporter-proj-button" type="button" class="button-1">Info</button>
+                                        <button type="button" class="button-2-inactive" disabled>NDA</button>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
             </div>
 
-
-            <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xlg-3 col-fhd-3 col-rt-3 col-rt15-3 col-uhd-3 col-4k-3 col-8k-3" style="padding: 0px 20px 50px 20px;">
-                <table class="tcard" onmouseover="highlightCard(this)" onmouseout="unhighlightCard(this)">
-                    <tr>
-                        <td class="tcard-bar" />
-                        <td class="tcard-body-wrapper">
-                            <div class="tcard-body">
-                                <h3 class="tcard-title">SMS Bingo Client</h3>
-                                <h5 class="tcard-subtitle">C++ | Qt5</h5>
-                                <p class="tcard-text">
-                                    C++ application that reads from Dolphin's emulated RAM to keep track
-                                    of in-game statistics and connects players to play
-                                    Super Mario Sunshine Bingo. GUI built in Qt with custom QWidgets.
-                                </p>
-                                <img class="tcard-img" src="images/sms_bingo.gif" alt="Card image cap" style="width: 100%; margin-left: 0%;">
-                                <div class="tcard-buttons">
-                                    <button id="sms_bingo-proj-button" type="button" class="button-1">Info</button>
-                                    <button type="button" class="button-2" onclick="location.href='https://github.com/aleclouisgrant/sms-bingo'">Source</button>
+            <div id="bottom_row" class="row card_row">
+                <!-- Shift Report Card -->
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xlg-3 col-fhd-3 col-rt-3 col-rt15-3 col-uhd-3 col-4k-3 col-8k-3" style="padding: 0px 20px 50px 20px;">
+                    <table class="tcard" onmouseover="highlightCard(this)" onmouseout="unhighlightCard(this)">
+                        <tr>
+                            <td class="tcard-bar">
+                                <div class="tcard-bar-text-wrapper">
+                                    <div class="tcard-bar-text">
+                                        Office of Information Technology, Rutgers University
+                                    </div>
                                 </div>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xlg-3 col-fhd-3 col-rt-3 col-rt15-3 col-uhd-3 col-4k-3 col-8k-3" style="padding: 0px 20px 50px 20px;">
-                <table class="tcard" onmouseover="highlightCard(this)" onmouseout="unhighlightCard(this)">
-                    <tr>
-                        <td class="tcard-bar" />
-                        <td class="tcard-body-wrapper">
-                            <div class="tcard-body">
-                                <h3 class="tcard-title">Melody</h3>
-                                <h5 class="tcard-subtitle">C# | Unity3D</h5>
-                                <p class="tcard-text">
-                                    Mobile rhythm game released on independent game development
-                                    site. Garnered over 7000 views and over 1000 downloads. Developed in a
-                                    collaborative setting utilizing git and a kanban workflow.
-                                </p>
-                                <img class="tcard-img" src="images/melody.gif" alt="Card image cap" style="width: 100%; margin-left: 0%;">
-                                <div class="tcard-buttons">
-                                    <button id="melody-proj-button" type="button" class="button-1">Info</button>
-                                    <button type="button" class="button-2" onclick="location.href='https://bitbucket.org/aleclouisgrant/melody/'">Source</button>
+                            </td>
+                            <td class="tcard-body-wrapper">
+                                <div class="tcard-body">
+                                    <h3 class="tcard-title">Shift Report Tool</h3>
+                                    <h5 class="tcard-subtitle">C# | WinForms | VB | Powershell | SQL</h5>
+                                    <p class="tcard-text">
+                                        Reporting form for Rutgers University Office of Information
+                                        Technology. Employees fill out what duties they performed while on shift in a
+                                        Windows Form Application written in C# and Powershell. Sends an email to the
+                                        supervisory team and uploads a copy of the report to an Access database via SQL
+                                        so supervisors can monitor and run audits on consultant activities.
+                                    </p>
+                                    <img class="tcard-img" src="images/consultant_report.png" alt="Card image cap" style="width: 80%; margin-left: 10%;">
+                                    <div class="tcard-buttons">
+                                        <button id="shift_report_tool-proj-button" type="button" class="button-1">Info</button>
+                                        <button type="button" class="button-2-inactive" disabled>NDA</button>
+                                    </div>
                                 </div>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-            </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
 
-            <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xlg-3 col-fhd-3 col-rt-3 col-rt15-3 col-uhd-3 col-4k-3 col-8k-3" style="padding: 0px 20px 50px 20px;">
-                <table class="tcard" onmouseover="highlightCard(this)" onmouseout="unhighlightCard(this)">
-                    <tr>
-                        <td class="tcard-bar" />
-                        <td class="tcard-body-wrapper">
-                            <div class="tcard-body">
-                                <h3 class="tcard-title">Pathfinder</h3>
-                                <h5 class="tcard-subtitle">C# | WPF | XAML</h5>
-                                <p class="tcard-text">
-                                    Visual pathfinding application that implements the A*
-                                    Search algorithm. GUI built in C# using WPF and custom components
-                                    with XAML.
-                                </p>
-                                <img class="tcard-img" src="images/pathfinder.gif" alt="Card image cap" style="width: 60%; margin-left: 20%;">
-                                <div class="tcard-buttons">
-                                    <button id="pathfinder-proj-button" type="button" class="button-1">Info</button>
-                                    <button type="button" class="button-2" onclick="location.href='https://github.com/aleclouisgrant/AIDreamTeam/tree/master/Project1/'">Source</button>
+                <!-- SMS Bingo Card -->
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xlg-3 col-fhd-3 col-rt-3 col-rt15-3 col-uhd-3 col-4k-3 col-8k-3" style="padding: 0px 20px 50px 20px;">
+                    <table class="tcard" onmouseover="highlightCard(this)" onmouseout="unhighlightCard(this)">
+                        <tr>
+                            <td class="tcard-bar">
+                            </td>
+                            <td class="tcard-body-wrapper">
+                                <div class="tcard-body">
+                                    <h3 class="tcard-title">SMS Bingo Client</h3>
+                                    <h5 class="tcard-subtitle">C++ | Qt5</h5>
+                                    <p class="tcard-text">
+                                        C++ application that reads from Dolphin's emulated RAM to keep track
+                                        of in-game statistics and connects players to play
+                                        Super Mario Sunshine Bingo. GUI built in Qt with custom QWidgets.
+                                    </p>
+                                    <img class="tcard-img" src="images/sms_bingo.gif" alt="Card image cap" style="width: 100%; margin-left: 0%;">
+                                    <div class="tcard-buttons">
+                                        <button id="sms_bingo-proj-button" type="button" class="button-1">Info</button>
+                                        <button type="button" class="button-2" onclick="location.href='https://github.com/aleclouisgrant/sms-bingo'">Source</button>
+                                    </div>
                                 </div>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-            </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
 
+                <!-- Melody Card -->
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xlg-3 col-fhd-3 col-rt-3 col-rt15-3 col-uhd-3 col-4k-3 col-8k-3" style="padding: 0px 20px 50px 20px;">
+                    <table class="tcard" onmouseover="highlightCard(this)" onmouseout="unhighlightCard(this)">
+                        <tr>
+                            <td class="tcard-bar" />
+                            <td class="tcard-body-wrapper">
+                                <div class="tcard-body">
+                                    <h3 class="tcard-title">Melody</h3>
+                                    <h5 class="tcard-subtitle">C# | Unity3D</h5>
+                                    <p class="tcard-text">
+                                        Mobile rhythm game released on independent game development
+                                        site. Garnered over 7000 views and over 1000 downloads. Developed in a
+                                        collaborative setting utilizing git and a kanban workflow.
+                                    </p>
+                                    <img class="tcard-img" src="images/melody.gif" alt="Card image cap" style="width: 100%; margin-left: 0%;">
+                                    <div class="tcard-buttons">
+                                        <button id="melody-proj-button" type="button" class="button-1">Info</button>
+                                        <button type="button" class="button-2" onclick="location.href='https://bitbucket.org/aleclouisgrant/melody/'">Source</button>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <!-- Pathfinder Card -->
+                <!--
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xlg-3 col-fhd-3 col-rt-3 col-rt15-3 col-uhd-3 col-4k-3 col-8k-3" style="padding: 0px 20px 50px 20px;">
+            <table class="tcard" onmouseover="highlightCard(this)" onmouseout="unhighlightCard(this)">
+                <tr>
+                    <td class="tcard-bar" />
+                    <td class="tcard-body-wrapper">
+                        <div class="tcard-body">
+                            <h3 class="tcard-title">Pathfinder</h3>
+                            <h5 class="tcard-subtitle">C# | WPF | XAML</h5>
+                            <p class="tcard-text">
+                                Visual pathfinding application that implements the A*
+                                Search algorithm. GUI built in C# using WPF and custom components
+                                with XAML.
+                            </p>
+                            <img class="tcard-img" src="images/pathfinder.gif" alt="Card image cap" style="width: 60%; margin-left: 20%;">
+                            <div class="tcard-buttons">
+                                <button id="pathfinder-proj-button" type="button" class="button-1">Info</button>
+                                <button type="button" class="button-2" onclick="location.href='https://github.com/aleclouisgrant/AIDreamTeam/tree/master/Project1/'">Source</button>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        -->
+
+                <!-- Waterfront Stories Card -->
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xlg-3 col-fhd-3 col-rt-3 col-rt15-3 col-uhd-3 col-4k-3 col-8k-3" style="padding: 0px 20px 50px 20px;">
+                    <table class="tcard" onmouseover="highlightCard(this)" onmouseout="unhighlightCard(this)">
+                        <tr>
+                            <td class="tcard-bar">
+                                <div class="tcard-bar-text-wrapper">
+                                    <div class="tcard-bar-text">
+                                        Annapolis Maritime Museum
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="tcard-body-wrapper">
+                                <div class="tcard-body">
+                                    <h3 class="tcard-title">Waterfront Stories</h3>
+                                    <h5 class="tcard-subtitle">C# | WPF</h5>
+                                    <p class="tcard-text">
+                                        Media player for audio recordings of stories about the historic Annapolis waterfront from veterans in the oyster farming industry. 
+                                        The audio is captioned and accompanied by a slideshow of images from the early to mid 1900's.
+                                    </p>
+                                    <img class="tcard-img" src="images/waterfront.gif" alt="Card image cap" style="width: 80%; margin-left: 10%;">
+                                    <div class="tcard-buttons">
+                                        <button id="waterfront-proj-button" type="button" class="button-1">Info</button>
+                                        <button type="button" class="button-2-inactive" disabled>NDA</button>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
         </div>
 
-        <!-- Project pages -->
+        <!-- Project Pages -->
+        <!-- Show Control Project Page -->
+        <table id="show-control-proj" class="proj-tcard" style="display: none;">
+            <tr>
+                <td class="tcard-body-wrapper">
+                    <div class="tcard-body">
+                        <h3 class="tcard-title">Show Control</h3>
+                        <h5 class="tcard-subtitle">C# | Windows Presentation Foundation</h5>
+                        <div class="tcard-img" style="width: 50%;">
+                            <img src="images/showcontrol2.png" />
+                        </div>
+                        <h5 class="tcard-subtitle" style="text-align: center;">Developed for Quatrefoil Associates</h5>
+                        <p class="tcard-text">
+                            The Quatrefoil Exhibit Show Control system was developed as a custom comprehensive remote control software to handle a variety of automated tasks for museum exhibits.
+                            Deployed in all of the firm’s ongoing museum projects, the system was built on the MQTT communication protocol and is routed by a Node-RED server running on a Raspberry Pi.
+                            Windows devices are connected to the MQTT server via named pipes wrapped in a Windows Service while most other devices use UDP to communicate to the Raspberry Pi.
+                            The system is primarily controlled from mobile devices using a simple UI built in Node-RED.
+                            The system was built to be easily expandable and robust as every museum's specific exhibits require unique solutions to run properly.
+                        </p>
+                        <div class="tcard-img" style="width: 50%;">
+                            <img src="images/showcontrol1.png" />
+                        </div>
+                        <p class="tcard-text">
+                            Features of the system include:
+                        </p>
+                        <ul>
+                            <li>Turn on devices using Wake On Lan</li>
+                            <li>Test connections to all devices</li>
+                            <li>Restart applications</li>
+                            <li>Restart devices</li>
+                            <li>Shut down devices</li>
+                            <li>Create a custom schedule to turn on and off all devices throughout the week</li>
+                            <li>View logs of errors</li>
+                            <li>View logs of usage: what the patron did on the computer, etc</li>
+                        </ul>
+                        <div class="tcard-img" style="width: 50%;">
+                            <img src="images/showcontrol3.png" />
+                        </div>
+                        <p class="tcard-text">
+                            The system is compatible with:
+                        </p>
+                        <ul>
+                            <li>Windows devices</li>
+                            <li>BrightSigns</li>
+                            <li>Projectors</li>
+                            <li>Smart TVs/displays</li>
+                            <li>Smart devices</li>
+                            <li>Anything that can communicate over UDP</li>
+                        </ul>
+
+                        <div class="proj-tcard-buttons">
+                            <button type="button" class="button-1 back-button">Back</button>
+                            <button type="button" class="button-2-inactive" disabled>NDA</button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Picket Fence Project Page -->
+        <table id="picket-fence-proj" class="proj-tcard" style="display: none;">
+            <tr>
+                <td class="tcard-body-wrapper">
+                    <div class="tcard-body">
+                        <h3 class="tcard-title">Picket Fence Ranking System</h3>
+                        <h5 class="tcard-subtitle">C# | Windows Presentation Foundation</h5>
+                        <div class="tcard-img" style="width: 25%;">
+                            <img src="images/picket_fence.jpg" />
+                        </div>
+                        <p class="tcard-text">
+                            I designed and developed the Picket Fence Ranking System to rank professional West Coast Swing dance competitors.
+                            I created and refined a custom ELO-based algorithm that factors in the disparate levels of dancers and their partners against the competition.
+                            This creates a more fair, skill based ranking system as opposed to the current official point accumulation system.
+                        </p>
+                        <div class="tcard-img" style="width: 40%;">
+                            <img src="images/picket-algo.png" />
+                        </div>
+                        <p class="tcard-text">
+                            Competitor records are stored in a Mongo database and served by a Blazor built website via web APIs.
+                            An MVVM UI application was also built in WPF for admins to handle uploading and editing data on competitors and competitions.
+                            All search boxes cross check the official World Swing Dance Council database for accurate information on competitors.
+                        </p>
+                        <div class="proj-tcard-buttons">
+                            <button type="button" class="button-1 back-button">Back</button>
+                            <button type="button" class="button-2" onclick="location.href='https://github.com/aleclouisgrant/picket-fence'">Source</button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!-- American Cemeteries Project Page -->
+        <table id="american-cemeteries-proj" class="proj-tcard" style="display: none;">
+            <tr>
+                <td class="tcard-body-wrapper">
+                    <div class="tcard-body">
+                        <h3 class="tcard-title">American Cemeteries Touchless Exhibit</h3>
+                        <h5 class="tcard-subtitle">C# | WPF | LEAP Motion</h5>
+                        <div class="tcard-img" style="width: 50%;">
+                            <img src="images/amcem.png" />
+                        </div>
+                        <h5 class="tcard-subtitle" style="text-align: center;">Developed for the National Flag Foundation museum</h5>
+                        <p class="tcard-text">
+                            The American Cemeteries exhibit was developed for the National Flag Foundation museum in Pittsburgh, PA and displays information on international
+                            American war cemeteries. 
+                            </p>
+                        <div class="tcard-img">
+                            <img src="images/amcem2.png"/>
+                        </div>
+                        <p class="tcard-text">
+                            In response to the outbreak of COVID-19, visitors interact with the exhibit touchlessly by using hand gestures to click and scroll. 
+                            This was made possible by writing a custom library which uses the LEAP Motion tracking device as a mouse cursor.
+                        </p>
+                        <div class="proj-tcard-buttons">
+                            <button type="button" class="button-1 back-button">Back</button>
+                            <button type="button" class="button-2-inactive" disabled>NDA</button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!-- FlexCell Exporter Project Page -->
+        <table id="exporter-proj" class="proj-tcard" style="display: none;">
+            <tr>
+                <td class="tcard-body-wrapper">
+                    <div class="tcard-body">
+                        <h3 class="tcard-title">FlexCell to Google Sheets Export Library</h3>
+                        <h5 class="tcard-subtitle">C# | VBA | OAuth 2.0</h5>
+                        <div class="tcard-img" style="width: 60%;">
+                            <img src="images/xpd8.png" />
+                        </div>
+                        <h5 class="tcard-subtitle" style="text-align: center;">Developed for Project Worldwide (project.com)</h5>
+                        <p class="tcard-text">
+                            The FlexCell to Google Sheets Export Library is a custom library that takes FlexCell graphs 
+                            and uploads the content and styling to a Google Sheet. This library was developed as part of an effort to modernize the client's legacy
+                            in house applications, so it had to be ready to drop in to their Windows Forms applications written in VBA. 
+                        </p>
+                        <p class="tcard-text">
+                            This library preserves all compatible styling options including:
+                        </p>
+                        <ul>
+                            <li>Cell background and font color</li>
+                            <li>Grid size</li>
+                            <li>Individual column and row sizes in width and height</li>
+                            <li>Text alignment per cell</li>
+                            <li>Text wrapping and overflow properties</li>
+                            <li>Cell border colors and styles</li>
+                            <li>And more</li>
+                        </ul>
+                        <p class="tcard-text">
+                            The library would compose a request to the Google Drive API to create the sheet then use OAuth2.0 to set the accessibility and user permissions 
+                            to the appropriate Google accounts. The application could also control guest privileges and set the document to Read Only for use with
+                            the client's 3rd parties who needed access to shipping orders created via the library.  
+                        </p>
+                        <div class="proj-tcard-buttons">
+                            <button type="button" class="button-1 back-button">Back</button>
+                            <button type="button" class="button-2-inactive" disabled>NDA</button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Waterfront Stories Project Page -->
+        <table id="waterfront-proj" class="proj-tcard" style="display: none;">
+            <tr>
+                <td class="tcard-body-wrapper">
+                    <div class="tcard-body">
+                        <h3 class="tcard-title">Waterfront Stories</h3>
+                        <h5 class="tcard-subtitle">C# | WPF </h5>
+                        <div class="tcard-img" style="width: 50%;">
+                            <img src="images/waterfront.gif" />
+                        </div>
+                        <div class="tcard-img" style="width: 50%;">
+                            <img src="images/waterfront1.jpg" />
+                        </div>
+                        <h5 class="tcard-subtitle" style="text-align: center;">Developed for the Annapolis Maritime Museum</h5>
+                        <p class="tcard-text">
+                            The Waterfront Stories application was developed to as a media player for the Annapolis Maritime Museum.
+                            Audio recordings of stories about the historic Annapolis waterfront from veterans in the oyster farming industry are captioned and accompanied by a slideshow of images from the early to mid 1900's.
+                        </p>
+                        <div class="tcard-img" style="width: 50%;">
+                            <img src="images/waterfront2.jpg" />
+                        </div>
+                        <div class="tcard-img" style="width: 50%;">
+                            <img src="images/waterfront3.jpg" />
+                        </div>
+                        <p class="tcard-text">The application also featured a management tool that provided:</p>
+                        <ul>
+                            <li>One touch theme changer that requires no restart</li>
+                            <li>Intuitive upload tool that allows for pictures, captions, and audio to be added by museum staff</li>
+                            <li>Pictures and captions time coded to match the audio for a natural experience</li>
+                        </ul>
+                        <div class="tcard-img" style="width: 50%;">
+                            <img src="images/waterfront4.jpg" />
+                        </div>
+                        <div class="proj-tcard-buttons">
+                            <button type="button" class="button-1 back-button">Back</button>
+                            <button type="button" class="button-2-inactive" disabled>NDA</button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Pathfinder Project Page -->
         <table id="pathfinder-proj" class="proj-tcard" style="display: none;">
             <tr>
                 <td class="tcard-body-wrapper">
@@ -285,6 +655,7 @@
             </tr>
         </table>
 
+        <!-- Shift Report Tool Project Page-->
         <table id="shift_report_tool-proj" class="proj-tcard" style="display: none;">
             <tr>
                 <td class="tcard-body-wrapper">
@@ -368,13 +739,14 @@
                         <a id="award_link" href="https://www.nbcs.rutgers.edu/ccf/main/recognition/previous.php?last=G#alg63">Award letter</a>
                         <div class="proj-tcard-buttons">
                             <button type="button" class="button-1 back-button">Back</button>
-                            <button type="button" class="button-2" onclick="location.href='https://github.com/aleclouisgrant/sms-bingo'">Source</button>
+                            <button type="button" class="button-2-inactive" disabled>NDA</button>
                         </div>
                     </div>
                 </td>
             </tr>
         </table>
 
+        <!-- Melody Project Page -->
         <table id="melody-proj" class="proj-tcard" style="display: none;">
             <tr>
                 <td class="tcard-body-wrapper">
@@ -403,13 +775,14 @@
                         </p>
                         <div class="proj-tcard-buttons">
                             <button type="button" class="button-1 back-button">Back</button>
-                            <button type="button" class="button-2" onclick="location.href='https://github.com/aleclouisgrant/sms-bingo'">Source</button>
+                            <button type="button" class="button-2" onclick="location.href='https://bitbucket.org/aleclouisgrant/melody/src/master/'">Source</button>
                         </div>
                     </div>
                 </td>
             </tr>
         </table>
 
+        <!-- SMS Bingo Project Page -->
         <table id="sms_bingo-proj" class="proj-tcard" style="display: none;">
             <tr>
                 <td class="tcard-body-wrapper">
